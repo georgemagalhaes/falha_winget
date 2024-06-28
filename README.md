@@ -8,10 +8,10 @@ a) Ocorreu uma falha ao tentar fazer o upgrade dos programas do Windows 10 utili
 
 b) A falha é a seguinte (tela01):
 
-> C:\Windows\system32>winget upgrade --all
-> Falha na pesquisa da origem: msstore
-> Ocorreu um erro inesperado ao executar o comando:
-> 0x8a150044 : O ponto de extremidade da origem REST não foi encontrado.
+> C:\Windows\system32>winget upgrade --all</p>
+> Falha na pesquisa da origem: msstore</p>
+> Ocorreu um erro inesperado ao executar o comando:</p>
+> 0x8a150044 : O ponto de extremidade da origem REST não foi encontrado.</p>
 
 c) #SOLUÇÃO# Na verdade é uma alternativa, eu completei a linha com "--include-unknown --source winget" (tela02).
 
